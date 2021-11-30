@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        tools:context=".activity.DetailActivity">
+
+    <ImageView
+            android:id="@+id/iv_video_pic"
+            android:layout_width="150dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="60dp"
+            android:padding="2dp"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <ImageView-->
+    <!--            android:id="@+id/iv_logo_pic"-->
+    <!--            android:layout_width="150dp"-->
+    <!--            android:layout_height="240dp"-->
+    <!--            android:layout_marginEnd="48dp"-->
+    <!--            android:layout_marginTop="60dp"-->
+    <!--            android:padding="2dp"-->
+    <!--            android:focusableInTouchMode="false"-->
+    <!--            android:clickable="false"-->
+    <!--            android:focusable="false"-->
+    <!--            android:scaleType="centerCrop"-->
+    <!--            tools:ignore="ContentDescription"-->
+    <!--            android:src="@drawable/icon_logo"-->
+    <!--            app:layout_constraintRight_toRightOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+            android:id="@+id/tv_video_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginEnd="48dp"
+            android:gravity="left"
+            android:text="@string/placeholder"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/tv_video_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginEnd="48dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="false"
+            android:maxLines="5"
+            android:text="@string/placeholder"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintTop_toBottomOf="@+id/tv_video_name" />
+
+    <TextView
+            android:id="@+id/tv_video_intro"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginEnd="48dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="8"
+            android:text="@string/placeholder"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintTop_toBottomOf="@+id/tv_video_info" />
+
+    <TextView
+            android:id="@+id/tv_update"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/selector_focus_bg_corner15_with_default_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:text="@string/action_update"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_video_pic"
+            app:layout_constraintLeft_toLeftOf="@+id/tv_video_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_video_intro" />
+
+    <TextView
+            android:id="@+id/tv_star"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/selector_focus_bg_corner15_with_default_bg"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:text="@string/action_star"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintLeft_toRightOf="@+id/tv_update"
+            app:layout_constraintTop_toTopOf="@+id/tv_update" />
+
+    <TextView
+            android:id="@+id/tv_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/selector_focus_bg_corner15_with_default_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:text="@string/action_clear_view"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintLeft_toRightOf="@+id/tv_star"
+            app:layout_constraintTop_toTopOf="@+id/tv_star" />
+
+    <TextView
+            android:id="@+id/tv_reverse"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/selector_focus_bg_corner15_with_default_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:text="@string/action_reverse"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintLeft_toRightOf="@+id/tv_clean"
+            app:layout_constraintTop_toTopOf="@+id/tv_clean" />
+
+    <TextView
+            android:id="@+id/tv_episode_source"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:text="@string/text_episode_source"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintLeft_toLeftOf="@+id/iv_video_pic"
+            app:layout_constraintTop_toBottomOf="@+id/tv_update" />
+
+    <androidx.leanback.widget.HorizontalGridView
+            android:id="@+id/hg_play_from"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="48dp"
+            app:focusOutEnd="true"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            app:focusOutFront="true"
+            app:layout_constraintLeft_toRightOf="@+id/tv_episode_source"
+            app:layout_constraintTop_toTopOf="@+id/tv_episode_source" />
+
+    <tech.minesoft.minetv.widget.TabVerticalGridView
+            android:id="@+id/hg_episode_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="360dp"
+            android:layout_marginBottom="15dp"
+            android:paddingStart="48dp"
+            android:paddingEnd="48dp"
+            app:focusOutEnd="true"
+            app:focusOutFront="true"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/iv_video_pic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

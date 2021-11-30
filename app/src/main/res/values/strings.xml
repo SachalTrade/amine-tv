@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Mine TV</string>
+    <string name="placeholder">Mine TV Placeholder</string>
+
+ <string name="clear_record"> Clear record </string>
+    <string name="clear_unstar"> empty the uncollected </string>
+    <string name="clear_view"> Clear the progress record </string>
+    <string name="clear_star"> empty the collection</string>
+
+    <string name="action_update"> update </string>
+    <string name="action_star"> Favorites</string>
+    <string name="action_unstar"> cancel collection</string>
+    <string name="action_clear_view"> Clear the progress record</string>
+
+    <string name="action_reverse"> reverse </string>
+
+    <string name="text_episode_source"> play source</string>
+
+    <string name="search_results"> "%s" search results %d, the current page %d / %d</string>
+    <string name="search_results_none"> did not search for "%s" results </string>
+
+    <string name="select_group"> playback source %s </string>
+
+    <string name="tips_del"> This App resource comes from the network public interface</string>
+
+    <string name="site_info"> play source</string>
+    <string name="text_hint_code"> number</string>
+    <string name="text_hint_url"> address</string>
+
+    <string name="text_default_text"> Default search source: %s</string>
+    <string name="text_default_text_null"> no default search source</string>
+
+    <string name="tv_site_add"> add </string>
+    <string name="tv_site_delete"> delete </string>
+
+    <string name="back_top"> back to the top</string>
+    <string name="next_page"> next page</string>
+    <string name="prev_page"> previous page</string>
+
+
+    <string name="player_menu_next"> next episode</string>
+    <string name="player_menu_prev"> last episode</string>
+    <string name="player_menu_full"> full screen</string>
+    <string name="player_menu_origin"> original </string>
+    <string name="player_menu_ls"> stretch </string>
+    <string name="player_menu_169">16:9</string>
+    <string name="player_menu_43"> 4:3</string>
+    <string name="player_menu_direction"> fast forward/rewind</string>
+
+
+   <string-array name="tips">
+      <item>Press the menu button to delete records or single episode records</item>
+      <item>This App does not provide task video resources, all resources come from the network public interface</item>
+      <item>The advertisement in the video is not provided by this app, please don’t believe it lightly</item>
+      <item>Author: nianqinianyi</item>
+      <item>Github: &#064;minesoft</item>
+      <item>@string/app_name</item>
+   </string-array>
+</resources>

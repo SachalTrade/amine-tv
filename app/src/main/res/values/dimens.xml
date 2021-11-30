@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="btn_row_margin">40dp</dimen>
+    <dimen name="btn_space">10dp</dimen>
+
+    <dimen name="icon_text_space">5dp</dimen>
+
+    <dimen name="icon_size">15dp</dimen>
+
+    <dimen name="icon_margin">10dp</dimen>
+
+    <dimen name="icon_padding_star">30dp</dimen>
+    <dimen name="icon_padding_top">5dp</dimen>
+    <dimen name="icon_padding_end">10dp</dimen>
+
+    <dimen name="text_size_s">13sp</dimen>
+    <dimen name="text_size_m">15sp</dimen>
+    <dimen name="text_size_l">18sp</dimen>
+    <dimen name="text_size_xl">20sp</dimen>
+    <dimen name="text_size_2xl">22sp</dimen>
+    <dimen name="text_size_3xl">25sp</dimen>
+
+    <dimen name="logo_margin_50">50dp</dimen>
+    <dimen name="text_margin_65">65dp</dimen>
+    <dimen name="logo_size_60">60dp</dimen>
+
+    <dimen name="text_start">5dp</dimen>
+
+</resources>

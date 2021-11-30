@@ -1,0 +1,39 @@
+﻿{
+   "data": [
+     {
+       "tabCode": "TabStar",
+       "name": "Collection",
+       "icon": ""
+     },
+     {
+       "tabCode": "TabRecord",
+       "name": "Record",
+       "icon": ""
+     },
+     {
+       "tabCode": "TabOther",
+       "name": "Uncollected",
+       "icon": ""
+     },
+     {
+       "tabCode": "TabSearch",
+       "name": "Search",
+       "icon": ""
+     },
+     {
+       "tabCode": "TabSite",
+       "name": "Play source",
+       "icon": ""
+     },
+     {
+       "tabCode": "TabSetting",
+       "name": "Settings",
+       "icon": ""
+     },
+     {
+       "tabCode": "TabAbout",
+       "name": "About",
+       "icon": ""
+     }
+   ]
+}
